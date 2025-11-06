@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BDSM Test - Personality Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Introduction Screen -->
+        <div id="intro-screen" class="screen active">
+            <h1>BDSM Personality Test</h1>
+            <p>This test will help you discover your BDSM personality traits by asking a series of questions about your preferences and tendencies.</p>
+            <p>Answer honestly based on your feelings and interests.</p>
+            <div class="disclaimer">
+                <strong>Disclaimer:</strong> This is for educational and self-discovery purposes only. Results are not definitive and should be used as a starting point for exploration.
+            </div>
+            <button id="start-btn" class="btn">Start Test</button>
+        </div>
+
+        <!-- Test Screen -->
+        <div id="test-screen" class="screen">
+            <div class="progress-bar">
+                <div id="progress" class="progress"></div>
+            </div>
+            <div id="question-container">
+                <h2 id="question-text"></h2>
+                <div class="options">
+                    <button class="option-btn" data-value="-2">Strongly Disagree</button>
+                    <button class="option-btn" data-value="-1">Disagree</button>
+                    <button class="option-btn" data-value="0">Neutral</button>
+                    <button class="option-btn" data-value="1">Agree</button>
+                    <button class="option-btn" data-value="2">Strongly Agree</button>
+                </div>
+            </div>
+            <div class="navigation">
+                <button id="prev-btn" class="btn">Previous</button>
+                <span id="question-counter"></span>
+                <button id="next-btn" class="btn">Next</button>
+            </div>
+        </div>
+
+        <!-- Results Screen -->
+        <div id="results-screen" class="screen">
+            <h1>Your Results</h1>
+            <div id="results-container"></div>
+            <button id="retake-btn" class="btn">Retake Test</button>
+            <button id="share-btn" class="btn">Share Results</button>
+        </div>
+    </div>
+
+    <script src="questions.js"></script>
+    <script src="results-data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
