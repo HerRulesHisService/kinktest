@@ -1,0 +1,22 @@
+const questions = [
+    "I enjoy being in control during intimate situations",
+    "The idea of giving up control to someone I trust is appealing to me",
+    "I find pleasure in causing consensual pain to my partner",
+    "I enjoy receiving pain as part of sexual pleasure",
+    "Being restrained or tying up my partner is exciting to me",
+    "I like the idea of being tied up or restrained",
+    "Rules and structure in a relationship make me feel secure",
+    "I enjoy challenging my partner's authority in a playful way",
+    "I like when my partner challenges me in a playful manner",
+    "Service and devotion to my partner comes naturally to me",
+    "I appreciate when my partner serves and devotes themselves to me",
+    "Sensation play (wax, ice, feathers) interests me",
+    "Psychological power dynamics are more exciting than physical ones",
+    "I'm interested in exploring role-playing scenarios",
+    "The idea of consensual non-consent is intriguing to me",
+    "I believe aftercare is essential after intense scenes",
+    "I'm curious about exploring different forms of impact play",
+    "The concept of ownership in relationships appeals to me",
+    "I enjoy taking care of my partner after intense scenes",
+    "Public displays of the dynamic (discreet collars, etc.) interest me"
+];
